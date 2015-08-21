@@ -59,7 +59,6 @@
 	<bean id="sqlSessionSlaveFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
 		<property name="dataSource" ref="mysqlSlave00" />
 		<property name="configLocation" value="classpath:slaveMap.xml"/>
-		<!-- <property name="mapperLocations" value="classpath:sqlMap/slaveAdminSql.xml" />  -->
 	</bean>
 
 </beans>

@@ -18,6 +18,6 @@
 
 	<bean id="slaveDbMappingBean" class="io.sample.bean.SlaveDbMappingBean">
 		<property name="selectedSlaveDb" ref="selectedSlaveDb" />
-  </bean>
+	</bean>
 
 </beans>
